@@ -1,0 +1,24 @@
+.head1 {
+    background: black;
+    color: white;
+}
+
+.other {
+    background: skyblue;
+    color: green;
+}
+
+.head2 {
+    font-size: 50px;
+}
+
+#id1 {
+    background: yellowgreen;
+}
+
+.reg {
+    width: 360px;
+    background: rgb(225, 242, 248);
+    margin: 0 auto;
+    padding: 10px;
+}

@@ -1,0 +1,51 @@
+.box {
+    width: 600px;
+    height: 400px;
+    background: green;
+    position: relative;
+}
+
+.red-box {
+    background: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 100px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.box1 {
+    width: 300px;
+    height: 300px;
+    background: rgb(253, 249, 249);
+    margin: 100px auto;
+    box-shadow: 5px 5px violet, 10px 10px indigo, 15px 15px blue, 20px 20px green, 25px 25px yellow, 30px 30px orange, 35px 35px red, -5px -5px violet, -10px -10px indigo, -15px -15px blue, -20px -20px green, -25px -25px yellow, -30px -30px orange, -35px -35px red;
+}
+
+.font1 {
+    font-family: 'Long Cang', cursive;
+}
+
+.fonta {
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin: 20px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 70px;
+}
+
+.fonta i {
+    font-size: 50px;
+    color: red;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}

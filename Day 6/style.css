@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(217, 237, 240);
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+    display: block;
+    overflow: hidden;
+}
+
+.left-side {
+    width: 25%;
+    float: left;
+    background: rgb(57, 74, 224);
+    box-sizing: border-box;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+
+.left-side img {
+    border-radius: 50%;
+    width: 60%;
+}
+
+.left-side h1 {
+    font-family: tahoma;
+    font-size: 30px;
+    color: tomato;
+    text-transform: uppercase;
+}
+
+.left-side p {
+    font-family: tahoma;
+    color: #fff;
+}
+
+.nav-item {
+    margin-top: 30px;
+}
+
+.nav-item ul {}
+
+.nav-item ul li {
+    border-bottom: 1px dotted;
+}
+
+.nav-item ul li:last-child {
+    border-bottom: none;
+}
+
+.nav-item ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.nav-item ul li a:hover {
+    background: rgb(221, 91, 58);
+}
+
+.right-side {
+    width: 75%;
+    float: right;
+}
+
+.hire-me {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background: rgb(219, 224, 247);
+}
+
+.hire-me:hover {
+    color: red;
+}
+
+.about {
+    display: block;
+}
+
+.about-content {
+    width: 60%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.thumbnail {
+    width: 40%;
+    float: left;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.what-do {}
+
+.skill {}

@@ -1,0 +1,46 @@
+div1 {
+    background: powderblue;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+div h1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px green;
+    letter-spacing: 2px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.menu {
+    background: powderblue;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding: 15px;
+    display: block;
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover {
+    background: rgb(92, 116, 184);
+    color: white;
+}
