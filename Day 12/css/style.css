@@ -1,0 +1,47 @@
+.image img {
+    width: 100%;
+}
+
+.item {
+    text-align: center;
+}
+
+.all-items {}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+    padding: 24px;
+}
+
+.btn1 {
+    background: #F5A208;
+    border: none;
+    padding: 7px 17px;
+    color: white;
+    border-radius: 3px;
+}
+
+.box1 {
+    border: 2px dotted rgb(155, 155, 155);
+    height: 40px;
+    width: 260px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 40px;
+}
+
+.box1 i {
+    padding: 9px 15px;
+}
+
+.btn2 {
+    background: #303030;
+    border: none;
+    padding: 7px 22px;
+    color: white;
+    border-radius: 3px;
+}
